@@ -62,6 +62,10 @@ const Home: React.FC = () => {
           <button className="bg-[#bc6bef] text-white text-base sm:text-lg font-bold font-dinosaur px-4 py-2 rounded-md hover:bg-[#bc6bef]/50 transition-all duration-300 cursor-not-allowed">
             stake
           </button>
+
+          <button className="bg-[#bc6bef] text-white text-base sm:text-lg font-bold font-dinosaur px-4 py-2 rounded-md hover:bg-[#bc6bef]/50 transition-all duration-300 cursor-not-allowed">
+            revenue share
+          </button>
         </div>
 
         <span className="text-white font-bold font-dinosaur mt-6 text-[11px] sm:text-base text-center px-4">
