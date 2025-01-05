@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Dinosaur';
+  src: url('/Dinosaur.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Dinosaur', sans-serif;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+textarea,
+input {
+  outline: none;
+  background: transparent;
+}
+
+html {
+  height: 100vh;
+  background: #13141A;
+}
+
+body {
+  overflow-x: hidden;
+}
