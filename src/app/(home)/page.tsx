@@ -45,26 +45,26 @@ const Home: React.FC = () => {
         className="absolute w-full h-full object-cover z-0"
       />
 
-      <div className="flex flex-col items-center justify-center h-screen z-10">
+      <div className="flex flex-col items-center justify-center h-screen z-10 px-4">
         <Image
           src="/img/dino.png"
           alt="DINO"
           width={450}
           height={120}
-          className="mb-4"
+          className="mb-4 w-[300px] sm:w-[350px] md:w-[450px] h-auto"
         />
 
-        <div className="flex flex-row space-x-4 mt-4">
-          <button className="bg-[#bc6bef] text-white text-lg font-bold font-dinosaur px-4 py-2 rounded-md hover:bg-[#bc6bef]/50 transition-all duration-300 cursor-not-allowed">
+        <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 mt-4">
+          <button className="bg-[#bc6bef] text-white text-base sm:text-lg font-bold font-dinosaur px-4 py-2 rounded-md hover:bg-[#bc6bef]/50 transition-all duration-300 cursor-not-allowed">
             launchpad
           </button>
 
-          <button className="bg-[#bc6bef] text-white text-lg font-bold font-dinosaur px-4 py-2 rounded-md hover:bg-[#bc6bef]/50 transition-all duration-300 cursor-not-allowed">
+          <button className="bg-[#bc6bef] text-white text-base sm:text-lg font-bold font-dinosaur px-4 py-2 rounded-md hover:bg-[#bc6bef]/50 transition-all duration-300 cursor-not-allowed">
             stake
           </button>
         </div>
 
-        <span className="text-white font-bold font-dinosaur mt-6">
+        <span className="text-white font-bold font-dinosaur mt-6 text-[11px] sm:text-base text-center px-4">
           CA: 6emXcRyyPTVJCgzMXwVdqYUtnbB7BkLGYutZWQMNpump
         </span>
       </div>
