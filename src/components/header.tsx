@@ -25,8 +25,8 @@ const Header: React.FC = () => {
           <Image
             className="z-20 relative"
             src="/img/dino.png"
-            width={160}
-            height={80}
+            width={120}
+            height={40}
             alt="logo"
           />
         </Link>

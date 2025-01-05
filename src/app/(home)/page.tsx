@@ -49,8 +49,8 @@ const Home: React.FC = () => {
         <Image
           src="/img/dino.png"
           alt="DINO"
-          width={400}
-          height={100}
+          width={450}
+          height={120}
           className="mb-4"
         />
 
@@ -64,7 +64,7 @@ const Home: React.FC = () => {
           </button>
         </div>
 
-        <span className="text-white font-bold font-dinosaur mt-4">
+        <span className="text-white font-bold font-dinosaur mt-6">
           CA: 6emXcRyyPTVJCgzMXwVdqYUtnbB7BkLGYutZWQMNpump
         </span>
       </div>
