@@ -1,4 +1,3 @@
-import Header from "@/components/header";
 import { Suspense } from "react";
 import "../styles/globals.scss";
 
@@ -46,7 +45,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body suppressHydrationWarning={false}>
-        <Header />
         <Suspense>{children}</Suspense>
       </body>
     </html>
