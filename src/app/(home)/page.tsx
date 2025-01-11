@@ -130,11 +130,11 @@ const Home: React.FC = () => {
             </a>
           </div>
 
-          <div className="flex w-full lg:flex-row flex-col gap-4 justify-center items-center">
+          <div className="flex w-full lg:flex-row flex-col gap-4 lg:h-32 justify-center items-center">
             <a
               href="https://x.com/thetickerisDINO"
               target="_blank"
-              className="flex w-6/12 lg:w-2/12 flex-col py-6 items-center justify-center gap-2 bg-black rounded-3xl hover:opacity-70 transition-opacity"
+              className="flex w-6/12 lg:w-2/12 h-full flex-col py-6 items-center justify-center gap-2 bg-black rounded-3xl hover:opacity-70 transition-opacity"
             >
               <img src="/img/twitter.png" alt="Twitter" className="w-8 h-8" />
               <span className="text-white font-dinosaur block mt-2">
@@ -144,7 +144,7 @@ const Home: React.FC = () => {
             <a
               href="https://t.me/thetickerisDINO"
               target="_blank"
-              className="flex w-6/12 lg:w-2/12 flex-col py-6 items-center justify-center gap-2 bg-[#229ED9] rounded-3xl hover:opacity-70 transition-opacity"
+              className="flex w-6/12 lg:w-2/12 h-full flex-col py-6 items-center justify-center gap-2 bg-[#229ED9] rounded-3xl hover:opacity-70 transition-opacity"
             >
               <img
                 src="/img/telegram.png"
@@ -156,7 +156,7 @@ const Home: React.FC = () => {
             <a
               href="https://v1.birdeye.so/token/6emXcRyyPTVJCgzMXwVdqYUtnbB7BkLGYutZWQMNpump?chain=solana"
               target="_blank"
-              className="flex w-6/12 lg:w-2/12 flex-col py-6 items-center justify-center gap-2 bg-[#FFE7E0] rounded-3xl hover:opacity-70 transition-opacity"
+              className="flex w-6/12 lg:w-2/12 h-full flex-col py-6 items-center justify-center gap-2 bg-[#FFE7E0] rounded-3xl hover:opacity-70 transition-opacity"
             >
               <img src="/img/birdeye.png" alt="Birdeye" className="w-12 h-12" />
               <span className="text-[#FF3B30] font-dinosaur block">
